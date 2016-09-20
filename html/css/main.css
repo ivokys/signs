@@ -155,7 +155,6 @@ a:hover, a:active, a:visited, a:checked, a:focus {
 
 .slide-content {
     width: 80%;
-    margin-top: 7vw;
     color: #333;
     font-family: 'Open Sans Light', sans-serif;
     text-align: center;
@@ -173,11 +172,12 @@ a:hover, a:active, a:visited, a:checked, a:focus {
 
 .slide-content-wrapper {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     float: left;
     height: 37.5vw;
     background: #FFFFFF;
+    padding-bottom: 8vw;
 }
 
 .slide-content p {
